@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+}
+
+.myOwnNavbar:hover{
+    -moz-box-shadow: 0 0 15px #ccc;
+    -webkit-box-shadow: 0 0 15px #ccc;
+    box-shadow: 0 0 15px #ccc;
+}
+
+
+#shit{
+    text-align: center;
+}
+
+.carousel-inner > .item > img{
+    width: 350px;
+    height: 250px;
+}
+
+.slide1{
+    background-image: url("../images/glorious.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.slide2{
+    background-image: url("../images/svetsarN.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.slide3{
+    background-image: url("../images/batra.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.carousel-caption h1{
+    font-size: 5.4em;
+    font-family: 'Pacifico', cursive;
+    padding-bottom: .4em;
+}
+.carousel-caption p{
+    font-size: 2em;
+}

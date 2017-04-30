@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="d1d88843-9753-41e7-b90c-0aeb91cd97dc" name="http://212.47.227.5" url="http://212.47.227.5">
+        <fileTransfer host="212.47.227.5" port="22" privateKey="C:\Users\grottmongo\nyckel till server\PrivatekeyWithPassword.ppk" rootFolder="/var/www/html" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
