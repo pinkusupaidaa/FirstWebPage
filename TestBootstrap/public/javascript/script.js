@@ -1,5 +1,4 @@
 $(document).ready(function(){
-		location.hash = '#home';
 	window.addEventListener('hashchange', function(){
         if(window.location.hash === '#centerpartiet'){
             $('#content').load('centerpartiet.html', function () {
