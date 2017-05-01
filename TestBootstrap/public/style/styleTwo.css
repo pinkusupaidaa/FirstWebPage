@@ -54,6 +54,7 @@ body{
  */
 .blog-post{
     margin-bottom: 60px;
+    font-size: 1.2em;
 }
 .blog-top-title{
     font-size: 20px;
@@ -64,4 +65,8 @@ body{
 .blog-post-meta {
     margin-bottom: 20px;
     color: #999;
+}
+
+blockquote{
+    font-size: 0.9em;
 }
