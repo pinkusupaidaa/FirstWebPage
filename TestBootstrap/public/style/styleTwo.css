@@ -1,5 +1,5 @@
 body{
-    text-align: center;
+
 }
 
 .myOwnNavbar:hover{
@@ -12,7 +12,9 @@ body{
 #shit{
     text-align: center;
 }
-
+#navbar{
+    text-align: center;
+}
 .carousel-inner > .item > img{
     width: 350px;
     height: 250px;
@@ -46,4 +48,22 @@ body{
 }
 .carousel-caption p{
     font-size: 2em;
+}
+
+/*
+ * Blog posts
+ */
+.blog-post{
+    margin-bottom: 60px;
+    width: 500px;
+}
+.blog-top-title{
+    font-size: 60px;
+    font-weight: normal;
+    margin-top: 15px;
+    text-align: center;
+}
+.blog-post-meta {
+    margin-bottom: 20px;
+    color: #999;
 }
