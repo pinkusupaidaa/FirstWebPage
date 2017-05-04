@@ -76,9 +76,12 @@ body{
     margin-bottom: 20px;
     color: #999;
 }
-
 blockquote{
     font-size: 0.9em;
+}
+
+#enknapp{
+    position: absolute;
 }
 
 /* All Mobile Sizes (devices and browser) */
@@ -101,5 +104,9 @@ blockquote{
     [class="myOwnNavbar"]{
         height: 70px;
         width: 70px;
+    }
+    #EnKnapp{
+       width: 25%;
+        position: absolute;
     }
 }
