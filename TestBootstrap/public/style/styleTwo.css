@@ -80,10 +80,6 @@ blockquote{
     font-size: 0.9em;
 }
 
-#enknapp{
-    position: absolute;
-}
-
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {
     [class="slide1"]{
@@ -105,8 +101,9 @@ blockquote{
         height: 70px;
         width: 70px;
     }
-    #EnKnapp{
-       width: 25%;
-        position: absolute;
-    }
+/*    #EnKnapp{
+       width: 30%;
+        position: fixed;
+        margin-right: auto;
+    }*/
 }
