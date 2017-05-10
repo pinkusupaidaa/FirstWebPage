@@ -59,10 +59,14 @@ body{
     font-size: 2em;
 }
 
+cite{
+    font-size: 0.9em;
+}
 /*
  * Blog posts
  */
 .blog-post{
+    text-align: center;
     margin-bottom: 60px;
     font-size: 1.2em;
 }
@@ -76,10 +80,25 @@ body{
     margin-bottom: 20px;
     color: #999;
 }
-blockquote{
-    font-size: 0.9em;
-}
 
+
+/* Specifik for dekstop*/
+@media (min-width:1025px) {
+    .MyCite{
+        width: 25em;
+        font-size: 0.9em;
+        margin: auto;
+        text-align: justify;
+
+    }
+    .myParagraphClass{
+        width: 70%;
+        margin: auto;
+        text-align: justify;
+        /*margin-right: auto;
+        margin-left: auto;*/
+    }
+}
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {
     [class="slide1"]{
@@ -101,9 +120,18 @@ blockquote{
         height: 70px;
         width: 70px;
     }
-/*    #EnKnapp{
-       width: 30%;
-        position: fixed;
-        margin-right: auto;
-    }*/
+    .MyCite{
+        width: 100%;
+        font-size: 0.9em;
+        margin: auto;
+        text-align: left;
+
+    }
+    .myParagraphClass{
+        width: 100%;
+        margin: auto;
+        text-align: left;
+        /*margin-right: auto;
+        margin-left: auto;*/
+    }
 }
