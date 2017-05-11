@@ -1,7 +1,16 @@
 body{
-
+    font-family: "Garamond", Helvetica, Arial, sans-serif;
 }
-
+/*h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+    margin-top: 0;
+    font-weight: normal;
+    color: #333;
+}*/
 .myOwnNavbar:hover{
     -moz-box-shadow: 0 0 15px #ccc;
     -webkit-box-shadow: 0 0 15px #ccc;
@@ -59,19 +68,16 @@ body{
     font-size: 2em;
 }
 
-cite{
-    font-size: 0.9em;
-}
 /*
  * Blog posts
  */
 .blog-post{
     text-align: center;
     margin-bottom: 60px;
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 .blog-top-title{
-    font-size: 20px;
+    font-size: 3em;
     font-weight: normal;
     margin-top: 15px;
     text-align: center;
@@ -81,15 +87,20 @@ cite{
     color: #999;
 }
 
-
 /* Specifik for dekstop*/
 @media (min-width:1025px) {
-    .MyCite{
+    /*.MyCite{
         width: 25em;
         font-size: 0.9em;
         margin: auto;
         text-align: justify;
 
+    }*/
+    .MyCite{
+        font-size: 1em;
+        text-align: justify;
+        margin: auto;
+        width: 70%;
     }
     .myParagraphClass{
         width: 70%;
