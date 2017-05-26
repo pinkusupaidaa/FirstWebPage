@@ -53,7 +53,7 @@ $(document).ready(function(){
 	});
 
 	//ett Litet test för att se om sidan laddar när man länkar till den
-	if(window.location.hash === '#veckansGreider'){
+	/*if(window.location.hash === '#veckansGreider'){
         $('#content').load('veckansGreider.html', function () {
 			$('html, body').animate({ scrollTop: $('#testFocus').offset().top }, 'slow');
 		});
@@ -102,7 +102,7 @@ $(document).ready(function(){
         $('#content').load('home.html', function () {
             $('html, body').animate({ scrollTop: $('#testFocus').offset().top }, 'slow');
         });
-    }
+    }*/
 
     // // FUNKTION FÖR ATT "GO TO TOP" BTN SKA FLJA MED NÄR MAN SCROLLAR
     // (function($) {
