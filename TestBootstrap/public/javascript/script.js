@@ -1,6 +1,5 @@
 $(document).ready(function(){
 	window.addEventListener('hashchange', function(){
-        ga('set', 'page', location.pathname+location.search+location.hash);
         if(window.location.hash === '#centerpartiet'){
             $('#content').load('centerpartiet.html', function () {
                 $('html, body').animate({ scrollTop: $('#testFocus').offset().top }, 'slow');
