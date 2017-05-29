@@ -20,12 +20,12 @@ $(document).ready(function(){
                 $('html, body').animate({ scrollTop: $('#testFocus').offset().top }, 'slow');
             });
         }
-        if(window.location.hash === '#vänsterpartiet'){
+        if(window.location.hash === '#vansterpartiet'){
             $('#content').load('vänsterpartiet.html', function () {
                 $('html, body').animate({ scrollTop: $('#testFocus').offset().top }, 'slow');
             });
         }
-        if(window.location.hash === '#miljöpartiet'){
+        if(window.location.hash === '#miljopartiet'){
             $('#content').load('miljöpartiet.html', function () {
                 $('html, body').animate({ scrollTop: $('#testFocus').offset().top }, 'slow');
             });
@@ -78,12 +78,12 @@ $(document).ready(function(){
             $('html, body').animate({ scrollTop: $('#testFocus').offset().top }, 'slow');
         });
     }
-    if(window.location.hash === '#vänsterpartiet'){
+    if(window.location.hash === '#vansterpartiet'){
         $('#content').load('vänsterpartiet.html', function () {
             $('html, body').animate({ scrollTop: $('#testFocus').offset().top }, 'slow');
         });
     }
-    if(window.location.hash === '#miljöpartiet'){
+    if(window.location.hash === '#miljopartiet'){
         $('#content').load('miljöpartiet.html', function () {
             $('html, body').animate({ scrollTop: $('#testFocus').offset().top }, 'slow');
         });
