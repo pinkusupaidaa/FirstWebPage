@@ -159,4 +159,10 @@ h6, .h6 {
         text-align: justify;
         font-size: 0.7em;
     }
+    .blog-post-title{
+        font-size: 1em;
+    }
+    .blog-top-title{
+        font-size: 200%;
+    }
 }
